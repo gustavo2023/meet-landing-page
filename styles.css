@@ -1,3 +1,5 @@
+/* CSS RESET */
+
 *,
 *::before,
 *::after {
@@ -72,3 +74,8 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+/* END CSS RESET */
+
+/* CSS VARIABLES */
+
