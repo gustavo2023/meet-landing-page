@@ -190,9 +190,9 @@ p {
 }
 
 .download-btn {
+  width: 12.0625rem;
   display: flex;
   padding: var(--spacing-200) var(--spacing-500);
-  align-items: flex-start;
   gap: var(--spacing-100);
   border-radius: 1.8125rem;
   border: none;
@@ -263,6 +263,7 @@ p {
   align-items: center;
   border-radius: 50%;
   border: 1px solid var(--slate-300);
+  background-color: white;
 }
 
 .images-grid {
@@ -298,4 +299,50 @@ h2 {
   font-size: 2rem;
   font-weight: 900;
   line-height: var(--line-height-1);
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.number-container.second {
+  position: relative;
+  top: 1.5rem;
+  z-index: 1;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-800) var(--spacing-400);
+  gap: var(--spacing-300);
+  background: var(--cyan-600) url("./assets/mobile/image-footer.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.footer-heading,
+.footer-text {
+  color: white;
+  margin-bottom: 0;
+}
+
+.download-btn.two {
+  background-color: var(--purple-600);
+  display: flex;
+  justify-self: center;
+}
+
+.download-btn.two:hover {
+  background-color: #b18bdd;
+}
+
+.sp-text.bottom {
+  color: var(--purple-300);
 }
