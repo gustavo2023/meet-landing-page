@@ -264,6 +264,10 @@ p {
   border-radius: 50%;
   border: 1px solid var(--slate-300);
   background-color: white;
+  color: var(--slate-600);
+  font-weight: 900;
+  line-height: var(--line-height-2);
+  font-size: var(--text-size-4);
 }
 
 .images-grid {
@@ -311,7 +315,7 @@ footer {
 
 .number-container.second {
   position: relative;
-  top: 1.5rem;
+  top: 1.75rem;
   z-index: 1;
 }
 
