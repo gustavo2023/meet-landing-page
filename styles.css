@@ -80,6 +80,7 @@ textarea:not([rows]) {
 /* CSS VARIABLES */
 
 :root {
+  /* Colors */
   --cyan-600: #4d96a9;
   --cyan-300: #8fe3f9;
   --purple-600: #855fb1;
@@ -87,7 +88,29 @@ textarea:not([rows]) {
   --slate-900: #28283d;
   --slate-600: #87879d;
   --slate-300: #d1d1df;
-  --font: ;
+
+  /* Spacing */
+  --spacing-1400: 7rem;
+  --spacing-1000: 5rem;
+  --spacing-900: 4.5rem;
+  --spacing-800: 4rem;
+  --spacing-700: 3.5rem;
+  --spacing-500: 2.5rem;
+  --spacing-400: 2rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+
+  /* Typography */
+  --text-size-1: 4rem;
+  --text-size-2: 2.5rem;
+  --text-size-3: 1.125rem;
+  --text-size-4: 1rem;
+  --line-height-1: 110%;
+  --line-height-2: 150%;
+  --letter-spacing-1: 0;
+  --letter-spacing-2: 0.25em;
 }
 
 body {
@@ -96,4 +119,114 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3rem var(--spacing-1000) 0 var(--spacing-1000);
+  gap: var(--spacing-100);
+  align-self: stretch;
+  margin-bottom: var(--spacing-800);
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-img-left,
+.hero-img-right {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-300);
+  padding: 0 var(--spacing-400) var(--spacing-400) var(--spacing-400);
+}
+
+h1 {
+  color: var(--slate-900);
+  text-align: center;
+  font-size: var(--text-size-2);
+  font-weight: 900;
+  line-height: var(--line-height-1);
+}
+
+p {
+  color: var(--slate-600);
+  text-align: center;
+  font-size: var(--text-size-4);
+  font-weight: 500;
+  line-height: var(--line-height-2);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+
+.download-btn {
+  display: flex;
+  padding: var(--spacing-200) var(--spacing-500);
+  align-items: flex-start;
+  gap: var(--spacing-100);
+  border-radius: 1.8125rem;
+  border: none;
+  font-size: var(--text-size-4);
+  font-weight: 900;
+  line-height: var(--line-height-2);
+  color: white;
+  cursor: pointer;
+}
+
+.download-btn.one {
+  background-color: var(--cyan-600);
+}
+
+.download-btn.one:hover {
+  background-color: #71c0d4;
+}
+
+.sp-text.top {
+  color: var(--cyan-300);
+}
+
+.what-is-it-btn {
+  width: 10.0625rem;
+  padding: var(--spacing-200) var(--spacing-500);
+  border-radius: 1.8125rem;
+  border: none;
+  background: var(--purple-600);
+  color: white;
+  font-size: var(--text-size-4);
+  font-weight: 900;
+  line-height: var(--line-height-2);
+  cursor: pointer;
+}
+
+.what-is-it-btn:hover {
+  background-color: #b18bdd;
 }
