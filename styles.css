@@ -137,6 +137,7 @@ header {
   grid-template-columns: 1fr;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 3rem;
 }
 
@@ -148,9 +149,9 @@ header {
   width: 100%;
 }
 
-.hero-img-container {
+.hero-img-center {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
