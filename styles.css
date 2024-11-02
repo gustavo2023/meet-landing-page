@@ -328,7 +328,7 @@ footer {
   gap: var(--spacing-300);
   background: var(--cyan-600) url("./assets/mobile/image-footer.jpg");
   background-size: cover;
-  background-blend-mode: overlay;
+  background-blend-mode: soft-light;
 }
 
 .footer-heading,
