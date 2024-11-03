@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive landing page solution](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-and-css-grid-KsReAQfzve)
 - Live Site URL: [Meet Landing Page](https://gustavo2023.github.io/meet-landing-page/)
 
 ## My process
