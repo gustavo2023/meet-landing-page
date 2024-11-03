@@ -391,7 +391,6 @@ footer {
   .hero-img-right {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .hero-img-center {
@@ -399,8 +398,6 @@ footer {
   }
 
   .hero-content {
-    justify-content: flex-end;
-    align-items: flex-end;
     padding: var(--spacing-800) var(--spacing-1000);
   }
 
@@ -437,10 +434,12 @@ footer {
   .footer-content {
     padding: var(--spacing-1400) var(--spacing-1000);
     background: var(--cyan-600) url("./assets/desktop/image-footer.jpg");
+    background-size: cover;
   }
 
   .footer-info {
     flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
     max-width: 70rem;
     gap: var(--spacing-400);
@@ -448,5 +447,10 @@ footer {
 
   .footer-heading {
     font-size: var(--text-size-2);
+    text-align: left;
+  }
+
+  .footer-text {
+    text-align: left;
   }
 }
